@@ -48,3 +48,10 @@ This project is a dynamic Todo List web application built using Web Components. 
 
     Delete All Todos: Use the "Delete All Todos" button to remove both custom and fetched todos from the list.
     Error Handling: If invalid input is provided or an issue occurs during the fetch, an error message will be displayed.
+
+## Installation
+
+    1. git clone https://github.com/BozoKrolo/Xiphias-Project.git
+    2. cd Xiphias-Project
+    3. npm install
+    4. npm run dev
