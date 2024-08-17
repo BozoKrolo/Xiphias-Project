@@ -1,0 +1,146 @@
+.app-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  color: white;
+}
+
+.todo-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todo-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-todo-item-btn {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.add-todo-item-btn:hover {
+  background: var(--button-hover);
+}
+
+.add-todo-item-btn:active {
+  background: var(--button-active);
+}
+
+.todo-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-count-input {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.fetch-todos-btn,
+.delete-fetched-todos-btn,
+.delete-custom-todos-btn,
+.add-todo-item-btn,
+.delete-all-todos-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.fetch-todos-btn {
+  background-color: #007bff;
+}
+
+.fetch-todos-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-fetched-todos-btn {
+  background-color: #dc3545;
+}
+
+.delete-fetched-todos-btn:hover {
+  background-color: #c82333;
+}
+
+.delete-custom-todos-btn {
+  background-color: #28a745;
+}
+
+.delete-custom-todos-btn:hover {
+  background-color: #218838;
+}
+
+.add-todo-item-btn {
+  background-color: #17a2b8;
+}
+
+.add-todo-item-btn:hover {
+  background-color: #138496;
+}
+
+.delete-all-todos-btn {
+  background-color: #343a40;
+}
+
+.delete-all-todos-btn:hover {
+  background-color: #23272b;
+}
+
+.error-popup,
+.success-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.error-popup {
+  background-color: #f44336;
+}
+
+.success-popup {
+  background-color: #4caf50;
+}
+
+.fetched-todo {
+  background-color: #f0f8ff;
+  border-left: 5px solid #007bff;
+}
+
+.custom-todo-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
